@@ -1,0 +1,5 @@
+package gGoban
+
+func gGoban() {
+
+}
