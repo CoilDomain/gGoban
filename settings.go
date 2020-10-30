@@ -1,1 +1,5 @@
 package gGoban
+
+func Settings() {
+
+}
