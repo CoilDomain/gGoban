@@ -1,5 +1,5 @@
-package gGoban
+package ggoban
 
-func Settings() {
+func settings() {
 
 }

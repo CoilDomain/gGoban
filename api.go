@@ -1,1 +1,1 @@
-package gGoban
+package ggoban

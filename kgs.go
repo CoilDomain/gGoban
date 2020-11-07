@@ -1,4 +1,4 @@
-package gGoban
+package ggoban
 
 func kgsLogin() {
 
