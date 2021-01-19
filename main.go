@@ -1,5 +1,5 @@
-package ggoban
+package main
 
-func ggoban() {
-
+func main() {
+	kgsLogin()
 }

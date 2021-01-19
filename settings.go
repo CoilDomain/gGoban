@@ -1,4 +1,4 @@
-package ggoban
+package main
 
 func settings() {
 

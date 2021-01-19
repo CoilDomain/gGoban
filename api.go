@@ -1,1 +1,1 @@
-package ggoban
+package main
