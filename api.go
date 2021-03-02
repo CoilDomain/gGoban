@@ -1,8 +1,8 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 
@@ -22,5 +22,6 @@ func Index(w http.ResponseWriter, r *http.Request) {
 }
 
 func kgsapiindex(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode(kgsPoll())
+	jsonbody := kgsPoll()
+	io.WriteString(w, jsonbody)
 }
